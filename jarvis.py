@@ -37,7 +37,7 @@ def listen():
         return ""
 
 def get_news():
-    api_key = "e8ff4f6f583c4d4f80bc098f127803d2"
+    api_key = "your API"
 
     url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={api_key}"
 
